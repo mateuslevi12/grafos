@@ -19,11 +19,15 @@ def salvar_imagem(matriz_imagem, caminho_saida):
 
 def exibir_imagens(original, modificada):
     fig, eixos = plt.subplots(1, 2, figsize=(12, 6))
-    eixos[0].imshow(original, cmap='gray')
+
+    eixos[0].imshow(original, cmap='gray', vmin=0, vmax=255)
     eixos[0].set_title("Imagem Original")
-    eixos[1].imshow(modificada, cmap='gray')
+
+    eixos[1].imshow(modificada, cmap='gray', vmin=0, vmax=255)
     eixos[1].set_title("Imagem Modificada")
+
     plt.show()
+
 
 def preenchimento_balde(imagem, linha, coluna, nova_cor):
     linhas, colunas = imagem.shape
