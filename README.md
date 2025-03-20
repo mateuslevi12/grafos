@@ -2,10 +2,10 @@
 ## **Balde de Tinta - BFS e Vizinhança 8-Conectada**
 
 ### **Equipe:**
-- **Mateus Levi**
-- **Victor Rios**
-- **Gabriel de Paula**
-- **Cainã Rios**
+- **Mateus Levi - 2310315**
+- **Victor Rios - 2310350**
+- **Gabriel de Paula - 2310297**
+- **Cainã Rios - 2315038**
 
 ---
 
@@ -23,6 +23,3 @@ A solução transforma a imagem em um **grafo**, onde cada pixel é um **nó** e
 📌 **Geração da Imagem Final:** Armazenamento e exibição dos resultados.
 
 ---
-
-### **Ilustração da Conectividade**
-#### **Vizinhança 4-Conectada (Manhattan)**
