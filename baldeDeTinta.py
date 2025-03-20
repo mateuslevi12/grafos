@@ -1,3 +1,8 @@
+# TRABALHO GRAFOS
+# EQUIPE: MATEUS LEVI, VICTOR RIOS, GABRIEL DE PAULA E CAINÃ RIOS
+# SOLUÇÃO BALDE DE TINTA
+# BFS E vizinhança 8-conectada
+
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
